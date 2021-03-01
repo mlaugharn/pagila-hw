@@ -12,3 +12,4 @@ SELECT
     ON s.staff_id = p.staff_id
     WHERE p.payment_date >= '2020-01-01' AND p.payment_date < '2020-02-01'
     GROUP BY s.staff_id
+    ORDER BY first_name
